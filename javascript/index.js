@@ -2,9 +2,9 @@ $(document).ready(function () {
 
     $('#editButton').click(function(){
 
-        // $('.modal-content').draggable({
-        //     "handle":".modal-header"
-        // });
+        $('.modal-content').draggable({
+             "handle":".modal-header"
+        });
 
         $('#saveChanges').click(function () {
             $('#fullName').text($('#inputName').val());
